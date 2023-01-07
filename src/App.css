@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.signupdiv{
+  width: 400px;
+ 
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.signupdiv > div {
+  width: 70%;
+  margin-left: 12%;
+}
+.signupdiv > div > p {
+  margin-top: 15px;
+}
+.signupdiv > div > input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+.signupdiv > div > button {
+  width: 100%;
+  padding: 8px;
+  margin-left: 13px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+.linktosignup{
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.signupdiv > p {
+  margin-top: 10px;
+  margin-left: 12%;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.signupdiv > h2,span{
+  margin-left: 12%;
+}
+.todobox{
+  width: 45%;
+  height: 700px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 50px;
+}
+.logout{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.hello{
+  font-size: 30px;
+  margin-left: 30px;
+}
+.username{
+  font-size: 35px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.inputtask{
+  margin-left: 30px;
+  width: 60%;
+ 
+}
+.inputtask > input {
+  border-radius: 15px;
+  width: 100%;
+  padding: 15px;
+}
+.byn {
+  margin-left: 100px;
+}
