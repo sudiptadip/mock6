@@ -13,8 +13,14 @@ export default function Signup() {
     const navigate = useNavigate()
 
 function registor(){
-  dispatch(Signuprequest({email,password,username,confirmPassword}))
-    // console.log()
+  
+  if(email === '' || password === '' || username === '' || confirmPassword === ''){
+    alert('fill all the input fildes')
+  }else{
+    dispatch(Signuprequest({email,password,username,confirmPassword}))
+    alert('signup successfull')
+    navigate('/signin')
+  }
 }
 
   return (
